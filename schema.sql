@@ -9,3 +9,6 @@ date_of_birth DATE,
 escape_attempts INT,
 neutered BOOLEAN,
 weitght_kg DECIMAL);
+
+ALTER TABLE animals
+ADD species TEXT ;
