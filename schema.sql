@@ -116,4 +116,3 @@ CREATE INDEX vets_id_asc ON visits(vets_id ASC);
 
 -- create index for the owners table for the email
 CREATE INDEX email_asc ON owners(email ASC); 
-
