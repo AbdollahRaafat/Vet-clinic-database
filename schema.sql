@@ -100,3 +100,11 @@ FOREIGN KEY(vets_id)
 REFERENCES vets(id),
 PRIMARY KEY (animals_id,vets_id,date)
 );
+
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+
+--create index for the animals id to improve the speed of the search
+CREATE INDEX animals_id_asc ON visits(animals_id ASC);
