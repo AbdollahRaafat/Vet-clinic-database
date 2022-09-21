@@ -106,5 +106,14 @@ PRIMARY KEY (animals_id,vets_id,date)
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 
+
 --create index for the animals id to improve the speed of the search
 CREATE INDEX animals_id_asc ON visits(animals_id ASC);
+
+
+--create index for the vets id to improve the speed of the search
+CREATE INDEX vets_id_asc ON visits(vets_id ASC);
+
+-- create index for the owners table for the email
+CREATE INDEX email_asc ON owners(email ASC); 
+
