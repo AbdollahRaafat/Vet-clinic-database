@@ -7,6 +7,9 @@ It's a relational database to create the data structure for a vet clinic. Starts
 - visits
 
 
+## Database Schema Diagram
+![191231182-ccbe4619-9462-4b56-9564-158b1d626351](https://user-images.githubusercontent.com/80994020/191692951-fd1c7d23-1560-48af-a50d-4216c567ae89.png)
+
 ## Author
 
 - GitHub: [AbdollahRaafat](https://github.com/AbdollahRaafat)
